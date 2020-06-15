@@ -1,10 +1,27 @@
-# ELF
+# Linker, Loader, Runtime Library
 
-## Several Components After Implementing Compiler
+### 1. Runtime Library——MiniCRT
 
-### Linker
+##### MiniCRT demonstrated simple features of [Glibc](https://www.gnu.org/software/libc/) and [MSVCRT](http://www.mingw.org/category/wiki/msvc). 
 
-### Loader
+* **Entry function:	mini_crt_entry()**
 
-### Library
+* **Process:	exit(),atexit()**
+* **Heap:	malloc(),free()**
+* **IO:	fopen(),fread(),fwrite(),flcose(),fseek()**
+* **String:	strcpy(),strlen(),strcmp()**
+
+
+
+### 2. Linker
+
+
+
+
+
+
+
+### 3. Loader
+
+
 
