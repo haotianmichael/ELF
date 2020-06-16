@@ -2,7 +2,7 @@
 
 ## Goal
 
-**MiniCRT demonstrated simple features of [Glibc](https://www.gnu.org/software/libc/) and [MSVCRT](http://www.mingw.org/category/wiki/msvc).   **
+MiniCRT demonstrated simple features of [Glibc](https://www.gnu.org/software/libc/) and [MSVCRT](http://www.mingw.org/category/wiki/msvc).   
 
 ## Supported
 
