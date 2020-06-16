@@ -37,7 +37,7 @@ typedef  int FILE;
 #define stderr ((FILE*)2)
 
 
-int mini_crt_init_io();
+int mini_crt_io_init();
 FILE* fopen(const char*filename, const char*mode);
 int fread(void *buffer, int size, int count, FILE* stream);
 int fwrite(const void* buffer, int size, int count, FILE* stream);
