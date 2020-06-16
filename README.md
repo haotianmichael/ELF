@@ -1,12 +1,10 @@
-# Linker, Loader, Runtime Library
+# 1. Runtime Library——MiniCRT
 
-## 1. Runtime Library——MiniCRT
+## Goal
 
-### Goal
+**MiniCRT demonstrated simple features of [Glibc](https://www.gnu.org/software/libc/) and [MSVCRT](http://www.mingw.org/category/wiki/msvc).   **
 
-MiniCRT demonstrated simple features of [Glibc](https://www.gnu.org/software/libc/) and [MSVCRT](http://www.mingw.org/category/wiki/msvc).   
-
-### Supported
+## Supported
 
 * **Entry function:	mini_crt_entry()**
 * **Process:	exit(),atexit()**
@@ -14,17 +12,6 @@ MiniCRT demonstrated simple features of [Glibc](https://www.gnu.org/software/lib
 * **IO:	fopen(),fread(),fwrite(),flcose(),fseek()**
 * **String:	strcpy(),strlen(),strcmp()**
 
-
-
-
-
-
-
-## 2. Linker
-
-
-
-## 3. Loader
 
 
 
