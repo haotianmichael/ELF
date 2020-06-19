@@ -1,8 +1,18 @@
-# 1. Runtime Library——MiniCRT
+# Runtime Library——MiniCRT
 
 ## Goal
 
-MiniCRT demonstrated simple features of [Glibc](https://www.gnu.org/software/libc/) and [MSVCRT](http://www.mingw.org/category/wiki/msvc).   
+MiniCRT demonstrates simple features of [Glibc](https://www.gnu.org/software/libc/) and [MSVCRT](http://www.mingw.org/category/wiki/msvc).   
+
+## Features
+
+
+
+
+
+
+
+
 
 ## Supported
 
