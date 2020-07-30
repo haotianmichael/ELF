@@ -1,4 +1,8 @@
 
+/*
+    5.定义函数对象 
+*/
+
 //一元函数对象的基类
 template<class T>
 struct unary_function {
@@ -63,23 +67,5 @@ struct select1st : public unary_function<T> {
         return x.first; 
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
