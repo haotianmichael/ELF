@@ -3,8 +3,23 @@
 #include <cstddef>
 
 namespace h_stl{
+
     /*
-       1.定义迭代器类型
+       --->std::iterator  如果需要自行开发迭代器   可继承自该iterator
+       template<class Category, class T, class Distance = ptrdiff_t, 
+       class Pointer = T*, class Reference = T&> 
+       struct  iterator{
+
+       typedef Category iterator_category;
+       typedef T value_type;
+       typedef Distance difference_type;
+       typedef Pointer pointer;
+       typedef Reference reference;
+       };
+     */
+
+    /*
+       定义迭代器类型
      */
     struct input_iterator_tag {};  //输入迭代器
     struct output_iterator_tag {}; //输出迭代器
@@ -15,7 +30,7 @@ namespace h_stl{
 
 
     /*
-       2.定义迭代器
+       定义迭代器
      */
     //输入迭代器
     template<typename  T, typename  Distance>
@@ -75,7 +90,7 @@ namespace h_stl{
 
 
     /*
-     * 3. 定义迭代器萃取器
+     *  定义迭代器萃取器
      *
      */
     template<class Iterator>
